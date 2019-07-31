@@ -11,3 +11,33 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+#root > div > div > div {
+  display: inline-flex;
+}
+
+.NASA {
+  display: inline-flex;
+  justify-content: center;
+  width: 400px;
+  }
+  
+.TITLE {
+  font-size: 2rem;
+  text-align: center;
+ }
+
+.SHUTTLE {
+  display: flex;
+}
+
+.EXPLANATION {
+  text-indent: 15px;
+  padding-bottom: 20px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.DATE {
+  text-align: center;
+}
